@@ -1,0 +1,40 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px; 
+}
+h1{
+    color: rgb(137, 90, 180);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;  /* Keeps the spacing between form elements */
+}
+
+input, select{
+    width: 250px;
+}
+
+textarea{
+    width: 500px;
+}
+
+button{
+    border-radius: 10px;
+    width: 70px;
+}
+
+#copy{
+    text-align: center;
+}
